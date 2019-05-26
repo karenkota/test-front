@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Cart from './components/cart/Cart';
+import Payment from './components/payment/Payment';
+import Confirm from './components/confirm/Confirm';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <Cart />
+          <Payment />
+          <Confirm />
         </header>
       </div>
     );

@@ -1,0 +1,12 @@
+.button{
+  margin-top: 20px;
+}
+.btn-payment{
+  background-color: #FF6C00;
+  border-color: #FF6C00;
+  width: 330px;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}

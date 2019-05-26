@@ -1,0 +1,64 @@
+.container-creditcard{
+  color: #CCC;
+}
+h4 {
+  color: #999;
+}
+.tb-creditcard-info{
+  background-color: white;
+  border: 0.5px;
+  border-radius: 3px;
+  width: 341px;
+  margin: 10px;
+  padding: 5px;
+}
+h5{
+  text-align: left;
+}
+.creditcard-number{
+  padding: 10px 0;
+  color: #E7E7E7;
+}
+.input-creditcard-number{
+  width: 320px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #E7E7E7
+}
+.creditcard-name{
+  padding: 10px 0;
+  color: #E7E7E7;
+}              
+.input-creditcard-name{
+  width: 320px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #E7E7E7;
+}
+.input-input-creditcard{
+  display: flex;
+  justify-content: space-around;
+}
+.creditcard-valid{
+  padding: 10px 0;
+  color: #E7E7E7;
+}
+.input-creditcard-valid{
+  padding-left: 10px;
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #E7E7E7;
+  margin-right: 10px;
+}  
+.creditcard-cvv{
+  padding: 10px 0;
+  color: #E7E7E7;
+}
+.input-creditcard-cvv {
+  padding-right: 10px;
+  width: 140px;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #E7E7E7;
+}

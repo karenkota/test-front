@@ -1,0 +1,18 @@
+.container-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 13px;
+  color: #CCC;
+  background-color: white;
+  height: 50px;
+  width: 360x;
+  margin-bottom: 10px;
+  /* box-shadow: 10px 20px #CCC; */
+}
+.navbar-title {
+  margin-top: 35px;
+}
+.navbar-title h3{
+  color: #CCC;
+}
