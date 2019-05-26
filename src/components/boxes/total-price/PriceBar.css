@@ -11,6 +11,7 @@ p {
 .tb-pricebar {
   border: 0.5px solid #CCC;
   border-radius: 3px;
+  margin: 0 20px 60px 20px;
 }
 .products-pricebar{
   color: #212122;
@@ -24,4 +25,5 @@ p {
 .products-price-total{
   font-weight: bold;
   color: #212122;
+  padding-top: 5px;
 }
