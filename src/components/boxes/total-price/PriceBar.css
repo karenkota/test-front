@@ -3,6 +3,8 @@
   width: 341px;
   font-size: 15px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 p {
   background-color: #EEE;
@@ -12,6 +14,7 @@ p {
   border: 0.5px solid #CCC;
   border-radius: 3px;
   margin: 0 20px 60px 20px;
+  padding-bottom: 10px;
 }
 .products-pricebar{
   color: #212122;
@@ -19,11 +22,16 @@ p {
 .products-price-send{
   color: #212122;
 }
-.products-price-descount{
+.products-price-discount{
   color: #FF7800;
 }
 .products-price-total{
   font-weight: bold;
   color: #212122;
   padding-top: 5px;
+}
+.tb-pricebar-value{
+  display: flex;
+  flex-direction: column;
+  margin: -205px 0 0 240px;
 }

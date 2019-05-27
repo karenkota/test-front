@@ -17,6 +17,22 @@ class App extends Component {
       </div>
     );
   }
+
+  // handleRedirect = () => {
+  //   if (this.state.redirect) {
+  //     return (<Redirect to={`/payment`} />)
+  //   }
+
+  // handleSubmit = () => {
+  //   preventDefault();
+  //   .then(res => {
+  //     this.setState({redirect: true})
+  //   })
+  //   .catch(err => {
+  //     console.log("Error", err);
+  //   });
+  // }  
+
 }
 
 export default App;

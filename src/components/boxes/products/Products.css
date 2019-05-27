@@ -21,10 +21,6 @@ h4{
   border-radius: 3px;
   padding: 5px;
   margin: 10px;
-  display: flex;
-  flex-direction: column;
-
-  height: 80px;
 }
 .image-products{
   height: 63px;
@@ -34,15 +30,18 @@ h4{
 .name-products{
   width: 200px;
   height: 40px;
+  font-size: 0.8em;
   display: flex;
   align-self: flex-end;
   margin-top: -60px;
+  margin-left: 65px;
   margin-bottom: 5px;
 }
 .price-products{
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
   width: 50px;
   display: flex;
   align-self: flex-end;
+  margin-left: 210px;
 }

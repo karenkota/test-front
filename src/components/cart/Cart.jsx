@@ -7,32 +7,23 @@ import PriceBar from '../boxes/total-price/PriceBar';
 import Button from '../boxes/button/Button';
 
 
-class cart extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      
-    }  
-  }
-
-  render() {
-    return (
-      <div className="container-cart">
-        < Steps />
-          <div className="cart-products">
-            <div className='tb-products'>
-              <Products />
-            </div>
-            <div className="cart-price">
-              <PriceBar />
-            </div>
-            <div className="cart-payment">
-              <Button />
-            </div>
+const cart = () => {
+  return (
+    <div className="container-cart">
+      < Steps  cart="orange" />
+        <div className="cart-products">
+          <div className='tb-products'>
+            <Products />
           </div>
-      </div>
-    )
-  }
+          <div className="cart-price">
+            <PriceBar />
+          </div>
+          <div className="cart-payment">
+            <Button />
+          </div>
+        </div>
+    </div>
+  )
 }
 
 export default cart;
