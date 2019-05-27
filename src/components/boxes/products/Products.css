@@ -7,13 +7,15 @@ h4{
 }
 .container-products{
   background-color: #EEE;
+  margin-bottom: 10px;
 }
 .tb-products-products{
   padding: 10px;
   background-color: white;
   border: 0.5px;
   border-radius: 3px;
-  margin: 10px;
+  margin: 0 auto;
+  width: 340px;
   box-shadow: 1px 1px 5px 0 rgba(0,0,29,0.22);
 }
 .tb-products-list{

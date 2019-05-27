@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 5px;
+  margin: 0 auto;
 }
 p {
   background-color: #EEE;
@@ -16,6 +17,7 @@ p {
   border-radius: 3px;
   margin: 0 20px 60px 20px;
   padding-bottom: 10px;
+
 }
 .products-pricebar{
   color: #212122;
