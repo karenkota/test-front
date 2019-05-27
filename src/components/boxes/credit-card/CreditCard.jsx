@@ -4,37 +4,18 @@ import './CreditCard.css';
 class creditcard extends Component {
   constructor(props) {
     super(props);
-    this.state = { CCNumber: '', 
+    this.state = { 
+    CCNumber: '', 
     CCName: '', 
     CCValid: '', 
-    CCcvv: '' }
-    // this.dataCreditCard = this.dataCreditCard.bind(this);
+    CCcvv: '' 
+    }
+    this.handleChange = this.handleChange.bind(this);
   }  
-
-  // dataCreditCard.protoTypes = {
-  //   CCNumber: React.protoTypes.number.isRequired,
-  //   CCName: React.protoTypes.string.isRequired,
-  //   CCValidr: React.protoTypes.number.isRequired,
-  //   CCcvvv:  React.protoTypes.number.isRequired,
-  // }
  
   handleChange(e) {
-    this.setState({ text: e.target.value });
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-    if (!this.state.text.length) {
-      return;
-    }
-    const newItem = {
-      text: this.state.text,
-      id: Date.now()
-    };
-    this.setState(state => ({
-      items: state.items.concat(newItem),
-      text: ''
-    }));
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
   }
 
   render() {

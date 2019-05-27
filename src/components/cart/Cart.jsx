@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import './Cart.css';
-
+import { Link } from 'react-router-dom'
 import Steps from '../boxes/steps/Steps';
 import Products from '../boxes/products/Products';
 import PriceBar from '../boxes/total-price/PriceBar';
 import Button from '../boxes/button/Button';
-
 
 const cart = () => {
   return (
@@ -19,7 +18,7 @@ const cart = () => {
             <PriceBar />
           </div>
           <div className="cart-payment">
-            <Button />
+            <Link to="/payment"><Button display="SEGUIR PARA O PAGAMENTO"/></Link>
           </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import { Link } from 'react-router-dom'
 import Steps from '../boxes/steps/Steps';
 import CreditCard from '../boxes/credit-card/CreditCard';
 import PriceBar from '../boxes/total-price/PriceBar';
@@ -18,7 +18,7 @@ const payment = () => {
             <PriceBar />
           </div>
           <div className="cart-payment">
-            <Button display="FINALIZAR O PEDIDO"/>
+            <Link to="/confirm"><Button display="FINALIZAR O PEDIDO"/></Link>
           </div>
         </div>
     </div>
